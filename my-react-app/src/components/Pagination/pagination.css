@@ -1,0 +1,39 @@
+.pagination-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top:16px;
+}
+
+.pagination-container > div {
+   padding: 0 8px;
+   border: 1px solid #cccc;
+   border-left:0;
+   padding: 8px;
+   cursor: pointer;
+}
+
+.pointer-none {
+    pointer-events: none;
+    opacity: 0.4;
+}
+
+.pagination-container .number-pagination {
+    padding: 8px 16px;
+}
+
+.current-page {
+    color: white;
+    background: dodgerblue;
+}
+
+.pagination-container .prev-pagination {
+    border-left: 1px solid #cccc;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
+
+.pagination-container .next-pagination {
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
